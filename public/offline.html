@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline - VIGATE</title>
+    <link rel="manifest" href="/favicon_io/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+    <meta name="theme-color" content="#0d6efd">
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #1e40af 0%, #0d4b8f 100%);
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+        .offline-card {
+            max-width: 560px;
+            padding: 32px;
+            border-radius: 24px;
+            background: rgba(255,255,255,0.08);
+            box-shadow: 0 24px 60px rgba(0,0,0,0.25);
+            backdrop-filter: blur(14px);
+        }
+        .offline-card img {
+            width: 80px;
+            margin-bottom: 24px;
+        }
+        .offline-card h1 {
+            margin: 0 0 16px;
+            font-size: 2rem;
+        }
+        .offline-card p {
+            margin: 0 0 28px;
+            color: rgba(255,255,255,0.85);
+            line-height: 1.6;
+        }
+        .offline-card a {
+            display: inline-block;
+            padding: 12px 22px;
+            background: #3b82f6;
+            border-radius: 999px;
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .offline-card a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 30px rgba(59,130,246,0.35);
+        }
+    </style>
+</head>
+<body>
+    <div class="offline-card">
+        <img src="/favicon_io/android-chrome-192x192.png" alt="VIGATE logo">
+        <h1>Anda sedang offline</h1>
+        <p>VIGATE tidak dapat memuat halaman ini karena koneksi internet tidak tersedia. Silakan sambungkan kembali lalu muat ulang halaman.</p>
+        <a href="/">Kembali ke Beranda</a>
+    </div>
+</body>
+</html>
